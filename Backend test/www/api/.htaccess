@@ -1,6 +1,8 @@
 RewriteEngine On    # Turn on the rewriting engine
-RewriteRule ^tickets/read$ ./tickets/read.php [NC,L]
-RewriteRule ^tickets/read/([0-9_-]*)$ ./tickets/read.php?id=$1 [NC,L]
-RewriteRule ^tickets/create$ ./tickets/create.php [NC,L]
-RewriteRule ^tickets/update$ ./tickets/update.php [NC,L]
-RewriteRule ^tickets/delete$ ./tickets/delete.php [NC,L]
+# RewriteRule ^tickets/get-tickets ./tickets/getTickets.php? [NC,L]
+RewriteRule ^tickets/get-tickets/page/([0-9_-]*)$ ./tickets/getTickets.php?page=$1 [NC,L]
+RewriteRule ^tickets/get-ticket/([0-9_-]*)$ ./tickets/getTickets.php?id=$1 [NC,L]
+RewriteRule ^tickets/create-ticket$ ./tickets/createTicket.php [NC,L]
+RewriteRule ^tickets/update-ticket/([0-9_-]*)$ ./tickets/updateTicket.php?id=$1 [NC,L]
+RewriteRule ^tickets/close-ticket/([0-9_-]*)$ ./tickets/closeTicket.php?id=$1 [NC,L]
+RewriteRule ^tickets/delete-ticket/([0-9_-]*)$ ./tickets/deleteTicket.php?id=$1 [NC,L]
