@@ -70,11 +70,15 @@ docker-compose up -d
 ```
 3. Con esto ya se levantara el projecto en el enlace __127.0.0.1__
 
-4. Verificar que la base de datos se haya ejecutado. Se puede ingresar a phpadmin en el enlace __127.0.0.1:80__ y las credenciales son 
+4. Verificar que la base de datos se haya ejecutado. Se puede ingresar a phpadmin en el enlace __127.0.0.1:8000__ y las credenciales son 
 - usuario: root
 - contraseña: p4rtn3rs
 
-5. En caso de que la base de datos double-v-partners-database no tenga ninguna tabla, ejecutar en la base de datos el archivo __dump/tickets.sql__ el cual tiene la creación de la tabla y unos datos
+5. En caso de que la base de datos double-v-partners-database no tenga ninguna tabla, ejecutar en la base de datos el archivo __dump/tickets.sql__ el cual tiene la creación de la tabla y unos datos.
+
+6. Ir a phpmyadmin en la sección importar
+
+7. Seleccionar el archivo __dump/tickets.sql__ y luego pulsar el boton importar
 
 Con esto ya se tendra todo listo para usar la app. 
 

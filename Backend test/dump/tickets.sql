@@ -39,17 +39,17 @@ CREATE TABLE `tickets` (
 -- Volcado de datos para la tabla `tickets`
 --
 
-INSERT INTO `tickets` `user_name`, `status`) VALUES
-('Alexandra Combariza', 1),
-('Mafe orjuela', 0),
-('miguel', 1),
-('sergio', 0),
-('viviana', 1),
-('wiliam', 0),
-('ximena', 1),
-('alex', 1),
-('doris', 0),
-('ernesto', 1);
+INSERT INTO `tickets` (`id`,`user_name`, `status`) VALUES
+(1,'Alexandra Combariza', 1),
+(2,'Mafe orjuela', 0),
+(3,'miguel', 1),
+(4,'sergio', 0),
+(5,'viviana', 1),
+(6,'wiliam', 0),
+(7,'ximena', 1),
+(8,'alex', 1),
+(9,'doris', 0),
+(10,'ernesto', 1);
 
 --
 -- Índices para tablas volcadas
