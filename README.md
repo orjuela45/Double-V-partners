@@ -47,6 +47,6 @@ La api de github tiene un limite de peticiones gratuitas, por lo que se recomien
 
 1. Ir al archivo __Frontend test\js\env.example.js__ y cambiarlo por __env.example__
 
-2. En la sección de github-token donde dice "token" agregas el token que generaste
+2. En la sección de github-token agregas el token que generaste (Nota: yo deje el que utilice para el desarrollo, puede que este en un futuro ya no sirva)
 
 con esto ya tendras una mayor cantidad de peticiones a la api de github
