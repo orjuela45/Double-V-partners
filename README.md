@@ -34,7 +34,7 @@ con estos pasos ya se ejecutar la app
 ```
 git clone https://github.com/orjuela45/Double-V-partners.git
 ```
-2. Abrir una terminal en el directorio Frontend test y ejecutar el siguiete comando
+2. Abrir una terminal en el directorio Frontend test y ejecutar el siguiente comando
 ```
 http-server -o
 ```
@@ -50,3 +50,39 @@ La api de github tiene un limite de peticiones gratuitas, por lo que se recomien
 2. En la sección de github-token agregas el token que generaste (Nota: yo deje el que utilice para el desarrollo, puede que este en un futuro ya no sirva)
 
 con esto ya tendras una mayor cantidad de peticiones a la api de github
+
+# Backend
+
+Esta prueba consiste en hacer un CRUD de tickets y que funcione como un servicio http RESTFUL. En esta prueba se utilizo php, mysql y docker<br>
+
+## Intalación
+---------------------
+Para poder ejecutar el projecto se debe tener docker instalado en el ordenador. los pasos son los siguientes
+
+### Proceso http-serve
+1. Clonar el projecto en el directorio que se desee
+```
+git clone https://github.com/orjuela45/Double-V-partners.git
+```
+2. Abrir una terminal en el directorio Backend test y ejecutar el siguiente comando para levantar los contenedores
+```
+docker-compose up -d
+```
+3. Con esto ya se levantara el projecto en el enlace __127.0.0.1__
+
+4. Verificar que la base de datos se haya ejecutado. Se puede ingresar a phpadmin en el enlace __127.0.0.1:80__ y las credenciales son 
+- usuario: root
+- contraseña: p4rtn3rs
+
+5. En caso de que la base de datos double-v-partners-database no tenga ninguna tabla, ejecutar en la base de datos el archivo __dump/tickets.sql__ el cual tiene la creación de la tabla y unos datos
+
+Con esto ya se tendra todo listo para usar la app. 
+
+## Endpoints
+---------------------
+
+Para hacer pruebas de los endpoints dejo la documentación que realice con postman de los endpoints desarrollados
+[Documentación endpoints](https://documenter.getpostman.com/view/5695480/2s935uG13e)
+
+# Notas
+Espero que la prueba cumopla con los requisitos establecidos en la prueba y que sea del gusto de usted. Tambien me gustaria agregar, que me gusto trabajar en este test =D
