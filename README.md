@@ -10,7 +10,7 @@ Esta proyecto consiste en desarrollar dos pruebas tecnincas de frontend y backen
 # Fronted
 
 Esta prueba consiste en hacer uso de la api de [Github](https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28) para listar los usarios en una tabla y tambien mostrar un grafico de los seguidores de cada usuario consultado.<br>
-<!-- ![xamp](./assets/exampleWeb.jpg) -->
+![xamp](./assets/exampleWeb.jpg)
 
 ## Intalación
 ---------------------
@@ -22,7 +22,7 @@ Para poder ejecutar el projecto se debe de usar un servidor local como [xampp](h
 git clone https://github.com/orjuela45/Double-V-partners.git
 ```
 2. Ejecutar Xamp<br>
-<!-- ![xamp](./assets/xamp.jpg) -->
+![xamp](./assets/xamp.jpg)
 3. Ir a la siguiente dirección web (Cambiar el puerto si se usa otro)
 ```
 http://localhost:80/Frontend%20test/
@@ -38,7 +38,7 @@ git clone https://github.com/orjuela45/Double-V-partners.git
 ```
 http-server -o
 ```
-<!-- ![http-server](./assets/http-server.png) -->
+![http-server](./assets/http-server.png)
 Se abrira una pestaña en el navegador predeterminado ejecutando la app
 
 ## Recomendaciones
