@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Double v partners - Frontend test</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section id="userInfo" class="mt-4 border border-secondary rounded p-4">
+        <div class="row">
+          <div class="col-auto text-center">
+            <img
+              src="https://www.newrosspianofestival.com/wp-content/uploads/2018/04/user-icon.png"
+              class="rounded"
+              alt="Not found"
+              width="300"
+              class="rounded col-md-4"
+              id="userImage"
+            />
+            <h5 id="loginUser">Usuario no encontrado</h5>
+          </div>
+          <div class="col-auto col-lg-7 text-left">
+            <p><strong>Nombre: </strong><span id="name"> No encontrado</span></p>
+            <p><strong>Biografía: </strong><span id="bio"> No encontrada</span></p>
+            <p><strong>Repositorios publicos: </strong><span id="repositorys">0</span></p>
+            <p><strong>Seguidores: </strong><span id="followers">0</span></p>
+            <p><strong>Siguiendo: </strong><span id="following">0</span></p>
+            <p><strong>Fecha de inicio: </strong><span id="createdAt">--/--/----</span></p>
+            <p><strong>Fecha de ultima actualización: </strong><span id="updateAt">--/--/----</span></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="./js/userInfo.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
